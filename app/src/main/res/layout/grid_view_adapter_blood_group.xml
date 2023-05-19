@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4F1EBEB">
+    <androidx.cardview.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#95F1EBEB">
+    <TextView
+        android:id="@+id/blood_group_grid"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_shape"
+        android:text="A+"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

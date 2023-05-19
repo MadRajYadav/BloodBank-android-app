@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.cardview.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="20dp">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+               <TextView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:background="@drawable/circle_shape"
+                   android:text="A+"
+                   android:id="@+id/txt_blood_group"
+                   android:textSize="11dp"
+                   android:textStyle="bold"
+                   android:gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="2 days ago"
+                    android:id="@+id/txt_day_ego"
+                    android:textColor="@color/hint_brown"
+                    android:textSize="10dp"
+                    android:paddingStart="5dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+                    <TextView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/baseline_share_location_24"
+                        android:backgroundTint="@color/hint_brown"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5 km"
+                        android:id="@+id/txt_distance1"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hint_brown"/>
+                </LinearLayout>
+
+
+                </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rohit Kumar"
+                android:id="@+id/txt_name"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8051379968"
+                android:id="@+id/txt_number"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="paid"
+                    android:id="@+id/txt_donor_type"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0 Points"
+                    android:id="@+id/txt_points"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="@color/teal_700"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/baseline_location_on_24"
+                    android:backgroundTint="@color/hint_brown"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bihar, Munger"
+                    android:id="@+id/txt_state_city"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/hint_brown"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"
+                    android:background="@drawable/circle_shape"
+                    android:backgroundTint="@color/hint_brown"
+                    android:layout_marginStart="8dp"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="India"
+                    android:id="@+id/txt_country"
+                    android:textSize="10dp"
+                    android:paddingStart="5dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/teal_700"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    >
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/baseline_remove_red_eye_24"
+                        android:backgroundTint="@color/hint_brown"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:id="@+id/txt_seen"
+                        android:textSize="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/hint_brown"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>
+
+
